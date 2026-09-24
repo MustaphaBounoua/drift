@@ -1,0 +1,12 @@
+# Versions the published runs were produced with (Python 3.10.12, CUDA 12.6).
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.13.0+cu126
+lightning==2.6.5
+torchcfm==1.0.7
+pot==0.9.7.post1
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+anndata==0.11.4
+scanpy==1.11.5
+cell-eval==0.5.42            # ComboSciPlex evaluation

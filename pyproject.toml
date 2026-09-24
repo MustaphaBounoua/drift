@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drift"
+version = "1.0.0"
+description = "DRIFT: Disentangled Responsive-Invariant Flow Transport for single-cell perturbation prediction"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Mustapha Bounoua" }]
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.1",
+    "lightning>=2.2",
+    "torchcfm>=1.0.7",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pot>=0.9",
+    "scikit-learn>=1.3",
+    "anndata>=0.10",
+    "scanpy>=1.9",
+    "cell-eval>=0.5.42",
+]
+
+[project.urls]
+Repository = "https://github.com/MustaphaBounoua/drift"
+
+[tool.setuptools]
+packages = ["drift"]
