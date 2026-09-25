@@ -13,11 +13,11 @@ import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 
-from drift.config import VAEConfig  # noqa: E402
-from drift.data import PerturbData  # noqa: E402
-from drift.eval import score_celleval, score_genetic  # noqa: E402
-from drift.flow import DriftFlow  # noqa: E402
-from drift.vae import DriftVAE  # noqa: E402
+from drift.config import VAEConfig  
+from drift.data import PerturbData  
+from drift.eval import score_celleval, score_genetic  
+from drift.flow import DriftFlow 
+from drift.vae import DriftVAE  
 
 
 def load(ckpt: str):
